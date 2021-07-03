@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+    
+    <h2 >GALLERY</h2>
+
+    <div class="row">
+      <div class="column">
+        <img src="img/img0.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="img/img4.jpg"  onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="img/planet.jpg"  onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="img/solar.gif"  onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="img/img12.jpg"  onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="img/img5.jpg"  onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="img/img6.jpg"  onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="img/img7.jpg"  onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="img/img8.jpg"  onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="img/img9.jpg"  onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="img/img10.jpg"  onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="img/img11.jpg"  onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+      </div>
+    </div>
+    
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()"><i class="far fa-times-circle"></i></span>
+      <div class="modal-content">
+    
+        <div class="mySlides">
+          <div class="numbertext">1 / 12</div>
+          <img src="img/img0.jpg" >
+        </div>
+    
+        <div class="mySlides">
+          <div class="numbertext">2 / 12</div>
+          <img src="img/img4.jpg" >
+        </div>
+    
+        <div class="mySlides">
+          <div class="numbertext">3 / 12</div>
+          <img src="img/planet.jpg" >
+        </div>
+        
+        <div class="mySlides">
+          <div class="numbertext">4 / 12</div>
+          <img src="img/solar.gif" >
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">5 / 12</div>
+            <img src="img/img12.jpg" >
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">6 / 12</div>
+            <img src="img/img5.jpg" >
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">7 / 12</div>
+            <img src="img/img6.jpg" >
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">8 / 12</div>
+            <img src="img/img7.jpg" >
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">9 / 12</div>
+            <img src="img/img8.jpg" >
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">10 / 12</div>
+            <img src="img/img9.jpg" >
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">11 / 12</div>
+            <img src="img/img10.jpg" >
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">12 / 12</div>
+            <img src="img/img11.jpg" >
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+    
+    
+        <div class="column">
+          <img class="demo cursor" src="img/img0.jpg"  alt="animal">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/img4.jpg"  alt="lib">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/planet.jpg" alt="planet">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/solar.gif"   alt="solar">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/img12.jpg"  alt="fructe">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/img5.jpg"   alt="FANTASTIC">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/img6.jpg"   alt="WORLD">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/img7.jpg"   alt="bridge">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/img8.jpg"   alt="london">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/img9.jpg"   alt="ocean world">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/img10.jpg"  alt="Rome">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="img/img11.jpg"   alt="paris">
+        </div>
+      </div>
+    </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
